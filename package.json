@@ -2,7 +2,6 @@
   "name": "reason",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "re:build": "bsb -make-world -clean-world",
     "re:watch": "bsb -make-world -clean-world -w",
