@@ -1,0 +1,13 @@
+.container {
+  padding: 50px;
+  background-color: chartreuse;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.content div {
+    margin-bottom: 10px;
+}
