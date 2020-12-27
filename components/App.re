@@ -1,5 +1,4 @@
 type appCss = {
-  messages: string,
   container: string
 };
 
