@@ -55,7 +55,7 @@ let make = () => {
       { 
         Array.map(webCell =>  {
           let { name: label, url } = webCell;
-          let onClick: ReactEvent.Mouse.t => unit = (_) => router.push(url); 
+          let onClick = (_) => router.push(url); 
 
           <Button key={label} label onClick /> 
         }, webCellz)
