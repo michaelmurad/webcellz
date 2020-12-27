@@ -12,7 +12,7 @@ function AppScreen(Props) {
   switch (app) {
     case /* Messages */0 :
         return React.createElement("div", {
-                    className: styles.container + (" " + styles.messages)
+                    className: styles.container
                   }, React.createElement(Button$Reason.make, {
                         label: "Back",
                         onClick: onClick
@@ -32,15 +32,7 @@ function AppScreen(Props) {
                         onClick: onClick
                       }), "Balance: -$21.32");
     case /* Home */3 :
-        throw {
-              RE_EXN_ID: "Match_failure",
-              _1: [
-                "AppScreen.re",
-                11,
-                2
-              ],
-              Error: new Error()
-            };
+        return null;
     
   }
 }

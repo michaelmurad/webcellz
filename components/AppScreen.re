@@ -31,6 +31,6 @@ let make = (~onClick, ~app) =>
       { ReasonReact.string("Reeking of a not so quiet desperation") }
       </div>
     </div>
-  | EP.None => React.null
+  | EP.Home => React.null
   };
    
