@@ -4,8 +4,8 @@ type appCss = {
 };
 
 [@bs.module("../styles/components/App.module.css")] 
-
 external styles: appCss = "default";
+
 [@react.component]
 let make = (~onClick, ~children) =>
   <div className={styles.container}>
