@@ -46,7 +46,7 @@ let make = () => {
       {ReasonReact.string("Why pay thousands of dollars for a cell phone when you can use WebCellz for free?")}
     </div>
     <div className={styles.description}>
-      {ReasonReact.string("WebCellz are GUARANTEED to replicate the functionality of a hardware smart phone*")}
+      {ReasonReact.string("WebCellz are GUARANTEED to replicate the functionality of a smart phone*")}
     </div>
     <div className={styles.description}>
       {ReasonReact.string("Choose your webcell below!")}

@@ -40,7 +40,7 @@ function Home(Props) {
                       className: styles.description
                     }, "Why pay thousands of dollars for a cell phone when you can use WebCellz for free?"), React.createElement("div", {
                       className: styles.description
-                    }, "WebCellz are GUARANTEED to replicate the functionality of a hardware smart phone*"), React.createElement("div", {
+                    }, "WebCellz are GUARANTEED to replicate the functionality of a smart phone*"), React.createElement("div", {
                       className: styles.description
                     }, "Choose your webcell below!"), React.createElement("div", {
                       className: styles.buttons
