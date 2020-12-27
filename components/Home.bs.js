@@ -20,7 +20,7 @@ var webCellz = [
   },
   {
     label: "Googol",
-    url: "./googol"
+    url: "/googol"
   }
 ];
 

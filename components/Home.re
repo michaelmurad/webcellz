@@ -26,7 +26,7 @@ type webCell = {
 let webCellz = [|
   { label: "MacroSoft", url: "https://www.youtube.com/watch?v=eywi0h_Y5_U" }, 
   { label: "Eggplant", url: "/eggplant" }, 
-  { label: "Googol", url: "./googol" }
+  { label: "Googol", url: "/googol" }
 |];
 
 [@react.component]
