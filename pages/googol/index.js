@@ -1,2 +1,1 @@
-import { make as Googol } from '../../components/Googol.bs'
-export default Googol;
+export { make as default } from '../../components/Googol.bs'

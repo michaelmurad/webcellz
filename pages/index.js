@@ -1,2 +1,1 @@
-import { make as Home } from '../components/Home.bs'
-export default Home;
+export { make as default } from '../components/Home.bs'
