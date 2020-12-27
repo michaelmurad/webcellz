@@ -3,8 +3,8 @@
 import * as Curry from "../node_modules/bs-platform/lib/es6/curry.js";
 import * as React from "react";
 import * as EP$Reason from "../modules/EP.bs.js";
-import * as App$Reason from "./App.bs.js";
 import * as Belt_Array from "../node_modules/bs-platform/lib/es6/belt_Array.js";
+import * as AppIcon$Reason from "./AppIcon.bs.js";
 import * as AppScreen$Reason from "./AppScreen.bs.js";
 import EggplantScreenModuleCss from "../styles/components/EggplantScreen.module.css";
 
@@ -25,7 +25,7 @@ function EggplantScreen(Props) {
     return React.createElement("div", {
                 className: styles.container
               }, Belt_Array.map(EP$Reason.apps, (function (application) {
-                      return React.createElement(App$Reason.make, {
+                      return React.createElement(AppIcon$Reason.make, {
                                   label: EP$Reason.appToString(application),
                                   onClick: (function (param) {
                                       return Curry._1(setApp, (function (param) {

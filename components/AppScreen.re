@@ -17,12 +17,12 @@ let make = (~onClick, ~app) =>
       }
     </div>
   | EP.Bank => 
-    <div className={styles.container ++ " " ++ styles.messages}>
+    <div className={styles.container}>
       <Button label={"Back"} onClick />
       { ReasonReact.string("Balance: -$21.32")}
     </div>
   | EP.Crapchat => 
-    <div className={styles.container ++ " " ++ styles.messages}>
+    <div className={styles.container}>
       <Button label={"Back"} onClick />
       <h1>
       { ReasonReact.string("You have been banned for the following reasons:") }

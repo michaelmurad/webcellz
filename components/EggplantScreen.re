@@ -16,7 +16,7 @@ let make = () => {
       {
         EP.apps 
         ->Belt.Array.map(application =>  
-          <App key={EP.appToString(application)} label={EP.appToString(application)} onClick={(_) => setApp(_ => application)} /> 
+          <AppIcon key={EP.appToString(application)} label={EP.appToString(application)} onClick={(_) => setApp(_ => application)} /> 
       )
       ->React.array
       }

@@ -19,14 +19,14 @@ function AppScreen(Props) {
                       }), "No new messages");
     case /* Crapchat */1 :
         return React.createElement("div", {
-                    className: styles.container + (" " + styles.messages)
+                    className: styles.container
                   }, React.createElement(Button$Reason.make, {
                         label: "Back",
                         onClick: onClick
                       }), React.createElement("h1", undefined, "You have been banned for the following reasons:"), React.createElement("div", undefined, "Reeking of a not so quiet desperation"));
     case /* Bank */2 :
         return React.createElement("div", {
-                    className: styles.container + (" " + styles.messages)
+                    className: styles.container
                   }, React.createElement(Button$Reason.make, {
                         label: "Back",
                         onClick: onClick
