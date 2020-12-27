@@ -1,4 +1,4 @@
-type eggplantScreenCss = {
+  type eggplantScreenCss = {
   container: string
 };
 
@@ -19,7 +19,7 @@ let make = () => {
             key={EP.appToString(application)} 
             label={EP.appToString(application)} 
             onClick={(_) => setApp(_ => application)} 
-          /> 
+          />
         )
         ->React.array
       }
@@ -31,4 +31,4 @@ let make = () => {
   | Bank => 
     <AppScreen onClick app />
   }
-  };
+};
