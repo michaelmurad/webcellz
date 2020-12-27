@@ -55,15 +55,15 @@ let make = () => {
       {ReasonReact.string("Choose your webcellz below!")}
     </div>
     <div className={styles.buttons}>
-    { 
-      Array.map(webCell =>  {
-        let { name: label, url } = webCell;
-        let onClick: ReactEvent.Mouse.t => unit = (_) => router.push(url); 
+      { 
+        Array.map(webCell =>  {
+          let { name: label, url } = webCell;
+          let onClick: ReactEvent.Mouse.t => unit = (_) => router.push(url); 
 
-        <Button key={label} label onClick /> 
-      }, webCellz)
-      ->React.array
-    }
+          <Button key={label} label onClick /> 
+        }, webCellz)
+        ->React.array
+      }
     </div>
   </div>
   </>;
