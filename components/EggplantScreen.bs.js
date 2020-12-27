@@ -16,7 +16,7 @@ function EggplantScreen(Props) {
       });
   var setApp = match[1];
   var app = match[0];
-  var back = function (param) {
+  var onClick = function (param) {
     return Curry._1(setApp, (function (param) {
                   return /* Home */3;
                 }));
@@ -37,7 +37,7 @@ function EggplantScreen(Props) {
                     })));
   } else {
     return React.createElement(AppScreen$Reason.make, {
-                onClick: back,
+                onClick: onClick,
                 app: app
               });
   }
