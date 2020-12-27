@@ -1,9 +1,6 @@
 [@bs.module("next/head")]
 external head: string = "default";
 
-[@bs.module("next/link")]
-external nextLink: ReasonReact.reactClassInternal = "default";
-
 type router = {
   push: string => unit
 };
