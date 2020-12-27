@@ -40,16 +40,16 @@ let make = () => {
   </head>
   <div className={styles.container}> 
     <div className={styles.title}>
-      {ReasonReact.string("webcellz")}
+      {ReasonReact.string("WebCellz")}
     </div>
     <div className={styles.description}>
-      {ReasonReact.string("Why pay thousands of dollars for a cell phone when you can use webcellz for free?")}
+      {ReasonReact.string("Why pay thousands of dollars for a cell phone when you can use WebCellz for free?")}
     </div>
     <div className={styles.description}>
-      {ReasonReact.string("webcellz are GUARANTEED to match your real cell phone usage")}
+      {ReasonReact.string("WebCellz are GUARANTEED to match your real cell phone usage")}
     </div>
     <div className={styles.description}>
-      {ReasonReact.string("Choose your webcellz below!")}
+      {ReasonReact.string("Choose your webcell below!")}
     </div>
     <div className={styles.buttons}>
       { 

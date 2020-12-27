@@ -36,13 +36,13 @@ function Home(Props) {
                   className: styles.container
                 }, React.createElement("div", {
                       className: styles.title
-                    }, "webcellz"), React.createElement("div", {
+                    }, "WebCellz"), React.createElement("div", {
                       className: styles.description
-                    }, "Why pay thousands of dollars for a cell phone when you can use webcellz for free?"), React.createElement("div", {
+                    }, "Why pay thousands of dollars for a cell phone when you can use WebCellz for free?"), React.createElement("div", {
                       className: styles.description
-                    }, "webcellz are GUARANTEED to match your real cell phone usage"), React.createElement("div", {
+                    }, "WebCellz are GUARANTEED to match your real cell phone usage"), React.createElement("div", {
                       className: styles.description
-                    }, "Choose your webcellz below!"), React.createElement("div", {
+                    }, "Choose your webcell below!"), React.createElement("div", {
                       className: styles.buttons
                     }, $$Array.map((function (webCell) {
                             var url = webCell.url;
