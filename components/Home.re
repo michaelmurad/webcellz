@@ -21,22 +21,16 @@ type homeCss = {
 [@bs.module("../styles/Home.module.css")] 
 external styles: homeCss = "default";
 
-let macrosoft = "MacroSoft";
-let eggplant = "Eggplant";
-let googol = "Googol";
-
-let appName = "WebCellz";
-
 type webCell = {
   name: string,
   url: string
 };
 
 let webCellz = [|
-  { name: macrosoft, url: "https://www.youtube.com/watch?v=eywi0h_Y5_U" }, 
-  { name: eggplant, url: "/eggplant" }, 
-  { name: googol, url: "./googol" }
-  |];
+  { name: "MacroSoft", url: "https://www.youtube.com/watch?v=eywi0h_Y5_U" }, 
+  { name: "Eggplant", url: "/eggplant" }, 
+  { name: "Googol", url: "./googol" }
+|];
 
 [@react.component]
 let make = () => {

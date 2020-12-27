@@ -9,23 +9,17 @@ import HomeModuleCss from "../styles/Home.module.css";
 
 var styles = HomeModuleCss;
 
-var macrosoft = "MacroSoft";
-
-var eggplant = "Eggplant";
-
-var googol = "Googol";
-
 var webCellz = [
   {
-    name: macrosoft,
+    name: "MacroSoft",
     url: "https://www.youtube.com/watch?v=eywi0h_Y5_U"
   },
   {
-    name: eggplant,
+    name: "Eggplant",
     url: "/eggplant"
   },
   {
-    name: googol,
+    name: "Googol",
     url: "./googol"
   }
 ];
@@ -64,16 +58,10 @@ function Home(Props) {
                           }), webCellz))));
 }
 
-var appName = "WebCellz";
-
 var make = Home;
 
 export {
   styles ,
-  macrosoft ,
-  eggplant ,
-  googol ,
-  appName ,
   webCellz ,
   make ,
   
