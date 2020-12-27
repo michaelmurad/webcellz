@@ -19,14 +19,14 @@ type homeCss = {
 external styles: homeCss = "default";
 
 type webCell = {
-  name: string,
+  label: string,
   url: string
 };
 
 let webCellz = [|
-  { name: "MacroSoft", url: "https://www.youtube.com/watch?v=eywi0h_Y5_U" }, 
-  { name: "Eggplant", url: "/eggplant" }, 
-  { name: "Googol", url: "./googol" }
+  { label: "MacroSoft", url: "https://www.youtube.com/watch?v=eywi0h_Y5_U" }, 
+  { label: "Eggplant", url: "/eggplant" }, 
+  { label: "Googol", url: "./googol" }
 |];
 
 [@react.component]
@@ -54,7 +54,7 @@ let make = () => {
     <div className={styles.buttons}>
       { 
         Array.map(webCell =>  {
-          let { name: label, url } = webCell;
+          let { label, url } = webCell;
           let onClick = (_) => router.push(url); 
 
           <Button key={label} label onClick /> 

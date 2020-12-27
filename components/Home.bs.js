@@ -11,15 +11,15 @@ var styles = HomeModuleCss;
 
 var webCellz = [
   {
-    name: "MacroSoft",
+    label: "MacroSoft",
     url: "https://www.youtube.com/watch?v=eywi0h_Y5_U"
   },
   {
-    name: "Eggplant",
+    label: "Eggplant",
     url: "/eggplant"
   },
   {
-    name: "Googol",
+    label: "Googol",
     url: "./googol"
   }
 ];
@@ -46,7 +46,7 @@ function Home(Props) {
                       className: styles.buttons
                     }, $$Array.map((function (webCell) {
                             var url = webCell.url;
-                            var label = webCell.name;
+                            var label = webCell.label;
                             var onClick = function (param) {
                               return Curry._1(router.push, url);
                             };
