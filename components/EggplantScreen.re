@@ -1,5 +1,4 @@
 type eggplantScreenCss = {
-  inApp: string,
   container: string
 };
 
