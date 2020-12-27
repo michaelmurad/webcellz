@@ -7,10 +7,10 @@ type appScreenCss = {
 external styles: appScreenCss = "default";
 
 [@react.component]
-let make = (~onClick, ~app: EP.app) =>
+let make = (~onClick, ~app) =>
   switch app {
   | EP.Messages => 
-    <div className={styles.container ++ " " ++ styles.messages}>
+    <div className={styles.container}>
       <Button label={"Back"} onClick />
       {
         ReasonReact.string("No new messages")
@@ -31,5 +31,6 @@ let make = (~onClick, ~app: EP.app) =>
       { ReasonReact.string("Reeking of a not so quiet desperation") }
       </div>
     </div>
+  | EP.None => React.null
   };
    
