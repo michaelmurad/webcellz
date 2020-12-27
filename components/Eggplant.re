@@ -3,7 +3,7 @@ type eggplantCss = {
   content: string
 };
 
-[@bs.module("../../styles/Eggplant.module.css")] 
+[@bs.module("../styles/Eggplant.module.css")] 
 external styles: eggplantCss = "default";
 
 [@react.component]

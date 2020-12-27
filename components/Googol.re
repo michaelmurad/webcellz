@@ -3,7 +3,7 @@ type googolCss = {
   content: string
 };
 
-[@bs.module("../../styles/Googol.module.css")] 
+[@bs.module("../styles/Googol.module.css")] 
 external styles: googolCss = "default";
 
 [@react.component]

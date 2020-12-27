@@ -4,7 +4,7 @@ import * as $$Array from "../node_modules/bs-platform/lib/es6/array.js";
 import * as Curry from "../node_modules/bs-platform/lib/es6/curry.js";
 import * as React from "react";
 import * as Router from "next/router";
-import * as Button$Reason from "../components/Button.bs.js";
+import * as Button$Reason from "./Button.bs.js";
 import HomeModuleCss from "../styles/Home.module.css";
 
 var styles = HomeModuleCss;
