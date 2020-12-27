@@ -10,6 +10,10 @@
       {
         "dir": "components",
         "subdirs": true
+      },
+      {
+        "dir": "modules",
+        "subdirs": true
       }
     ],
     "package-specs": [

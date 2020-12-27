@@ -15,9 +15,7 @@ var eggplant = "Eggplant";
 
 var googol = "Googol";
 
-var appName = "WebCellz";
-
-var webcellz = [
+var webCellz = [
   {
     name: macrosoft,
     url: "https://www.youtube.com/watch?v=eywi0h_Y5_U"
@@ -32,24 +30,29 @@ var webcellz = [
   }
 ];
 
-function Index(Props) {
+function Home(Props) {
   var router = Router.useRouter();
   return React.createElement(React.Fragment, undefined, React.createElement("head", undefined, React.createElement("title", undefined, "WebCellz"), React.createElement("link", {
                       href: "/favicon.ico",
                       rel: "icon"
+                    }), React.createElement("meta", {
+                      content: "Why pay thousands of dollars for a cell phone when you can use a WebCell for free?",
+                      name: "description"
                     })), React.createElement("div", {
                   className: styles.container
-                }, React.createElement("header", undefined, appName), React.createElement("div", {
+                }, React.createElement("div", {
                       className: styles.title
-                    }, "Welcome to WebCellz!"), React.createElement("div", {
+                    }, "webcellz"), React.createElement("div", {
                       className: styles.description
-                    }, "Why pay thousands of dollars for a cell phone when you can use a WebCell for free?"), React.createElement("div", {
+                    }, "Why pay thousands of dollars for a cell phone when you can use webcellz for free?"), React.createElement("div", {
                       className: styles.description
-                    }, "Choose your WebCell from the WebCellz below"), React.createElement("div", {
+                    }, "webcellz are GUARANTEED to match your real cell phone usage"), React.createElement("div", {
+                      className: styles.description
+                    }, "Choose your webcellz below!"), React.createElement("div", {
                       className: styles.buttons
-                    }, $$Array.map((function (webcell) {
-                            var url = webcell.url;
-                            var label = webcell.name;
+                    }, $$Array.map((function (webCell) {
+                            var url = webCell.url;
+                            var label = webCell.name;
                             var onClick = function (param) {
                               return Curry._1(router.push, url);
                             };
@@ -58,10 +61,12 @@ function Index(Props) {
                                         onClick: onClick,
                                         key: label
                                       });
-                          }), webcellz))));
+                          }), webCellz))));
 }
 
-var make = Index;
+var appName = "WebCellz";
+
+var make = Home;
 
 export {
   styles ,
@@ -69,7 +74,7 @@ export {
   eggplant ,
   googol ,
   appName ,
-  webcellz ,
+  webCellz ,
   make ,
   
 }

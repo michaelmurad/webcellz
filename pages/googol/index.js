@@ -1,2 +1,2 @@
-import { make as Smartphone } from './Googol.bs'
-export default Smartphone;
+import { make as Googol } from './Googol.bs'
+export default Googol;
