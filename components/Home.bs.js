@@ -42,7 +42,7 @@ function Home(Props) {
                       className: styles.description
                     }, "WebCellz are GUARANTEED to replicate the functionality of a smart phone*"), React.createElement("div", {
                       className: styles.description
-                    }, "Choose your webcell below!"), React.createElement("div", {
+                    }, "Choose one of 3 WebCellz below!"), React.createElement("div", {
                       className: styles.buttons
                     }, $$Array.map((function (webCell) {
                             var url = webCell.url;

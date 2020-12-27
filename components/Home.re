@@ -49,7 +49,7 @@ let make = () => {
       {ReasonReact.string("WebCellz are GUARANTEED to replicate the functionality of a smart phone*")}
     </div>
     <div className={styles.description}>
-      {ReasonReact.string("Choose your webcell below!")}
+      {ReasonReact.string("Choose one of 3 WebCellz below!")}
     </div>
     <div className={styles.buttons}>
       { 
