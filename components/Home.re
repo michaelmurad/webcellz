@@ -56,8 +56,7 @@ let make = () => {
     </div>
     <div className={styles.buttons}>
     { 
-      Array.map(webCell =>  
-      {
+      Array.map(webCell =>  {
         let { name: label, url } = webCell;
         let onClick: ReactEvent.Mouse.t => unit = (_) => router.push(url); 
 
